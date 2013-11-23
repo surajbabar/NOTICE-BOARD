@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Notice Board</title>
+    <script type="text/javascript" src = "supportScripts.js"></script>  
+    <link rel="stylesheet" type="text/css" href="sth.css">
+  </head>
+  <body>
+    <fieldset id = "logInOption">
+      <legend align ="center">
+        <h1>Welcome to <b>Notice board</b>. Log In, Sign Up</h1>
+      </legend>
+      <form method="post">
+        <button type = "submit" formaction = "signUp" height = "100" width = "100">Sign up</button>
+        <div align = "right">  
+          <h3>
+          <label for="UserId" >User Name: </label>
+          <input type="text" name="userID" value="" />
+          <label for="Password" >Password: </label>
+          <input type="password" name="password" value="" />
+          <input type="submit" value="LogIn" onclick="check(this.form)" formaction = "profile"/>
+          </h3>
+        </div> 
+      </form>
+    </fieldset>
+    <img border="4" src="/images/bg.jpg" width="1140" height="450">
+  </body>
+</html>

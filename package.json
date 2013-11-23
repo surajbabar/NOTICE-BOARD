@@ -1,0 +1,10 @@
+{
+	"devDependencies":{
+		"chai": "*",
+		"mocha": "*",
+		"nodemailer":"*",
+		"mocha-phantomjs":"*",
+		"express":"*",
+		"jade":"*"
+	}
+}
